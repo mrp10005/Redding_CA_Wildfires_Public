@@ -16,6 +16,5 @@
 * Model
     * The Model directory has the model notebooks
     * I did not do too much with this in terms of hyperparamter tuning. I was originally running it locally on my Mac and wanted to be cautious. Then got a new laptop and had to run three of the notebooks on Google Colab (one had to be changed a fair amount because Colab kept crashing) and the fourth is from March 2022 and I didn't change it.
-* The EDA directory has dirty and clean Redding, CA csv files.
-
-* Overall, it's pretty difficult to look at an image and see if there was a wildfire. There are some images that look like there is no wildfire but NOAA had them labeled as wildfire. The model does do pretty well on an image with smoke. Overall, MLPClassifier was very bad but the Keras Sequential model was ok.
+* EDA
+    * Dirty and clean Redding, CA csv files.
